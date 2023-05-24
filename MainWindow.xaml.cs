@@ -64,10 +64,10 @@ namespace WpfApp81
                     a = b = c = d = 0;
                     break;
             }
-            Boxa.Text = a.ToString();
-            Boxb.Text = b.ToString();
-            Boxc.Text = c.ToString();
-            Boxd.Text = d.ToString();
+            Boxa.Text = $"{a}";
+            Boxb.Text = $"{b}";
+            Boxc.Text = $"{c}";
+            Boxd.Text = $"{d}";
         }
     }
 }
